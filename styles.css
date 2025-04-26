@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #65DEF1;
+}
+
+.description {
+    font-size: 18px;
+    background: white;
+    padding: 6%;
+}
+
+.one {
+    width: 200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row > .description {
+    color: pink;
+    font-weight: bold;
+}
+
+.description:hover {
+    background: lightcoral;
+}
